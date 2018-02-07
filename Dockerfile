@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN mkdir jdk && \
-    wget https://yadi.sk/d/T9du1fAX3SAF9W -P jdk/
+    wget https://www.dropbox.com/s/src6utzd2clsoa8/jdk-8u162-linux-x64.tar.gz?dl=0 -P jdk/
 
 ADD $JAVA_PKG /opt/jdk/
 
